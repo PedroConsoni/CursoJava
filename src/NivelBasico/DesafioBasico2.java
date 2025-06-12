@@ -1,4 +1,4 @@
-// Define o pacote que a classe está localizada
+// Define o pacote que a classe está
 package NivelBasico;
 
 // Importei a classe Scanner para a entrada de dados do usuário
