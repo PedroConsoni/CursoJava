@@ -7,7 +7,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Criação de um array de clientes de tamanho fixo
+        // Criação do array de clientes de tamanho fixo
         int numeroMax = 10;
         Cliente[] clientes = new Cliente[numeroMax];
 

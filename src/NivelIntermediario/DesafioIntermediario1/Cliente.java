@@ -9,11 +9,11 @@ public class Cliente {
     String CPF;
 
     public void mostrarInformacoes() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
-        System.out.println("Email: " + email);
-        System.out.println("Senha: " + senha);
-        System.out.println("CPF: " + CPF);
+        System.out.println("O nome: " + nome);
+        System.out.println("A idade: " + idade);
+        System.out.println("O email: " + email);
+        System.out.println("A senha: " + senha);
+        System.out.println("O CPF: " + CPF);
     }
 }
 

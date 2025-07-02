@@ -11,6 +11,6 @@ public class ClienteVIP extends Cliente {
     @Override
     public void mostrarInformacoes() {
         super.mostrarInformacoes();
-        System.out.println("Brinde: " + brinde);
+        System.out.println("O brinde do VIP: " + brinde);
     }
 }
