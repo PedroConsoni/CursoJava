@@ -3,79 +3,79 @@ package NivelBasico;
 public class DesafioBasico1 {
     public static void main(String[] args) {
 
-        // Informações do Naruto Uzumaki
-        String ninja1 = "Naruto Uzumaki";
+        // Informações do Fúncionario 1
+        String funcionario1 = "Pedro";
         int idade1 = 18;
-        String missao1 = "Resgatar o Sasuke";
-        char nivelDaMissao1 = 'S';
-        String statusDaMissao1;
+        String projeto1 = "Desenvolvimento do software";
+        char nivelDoProjeto1 = 'S';
+        String statusDoProjeto1;
 
         if (idade1 < 15) {
-            if (nivelDaMissao1 == 'D' || nivelDaMissao1 == 'C') {
-                statusDaMissao1 = "Missão concluída";
+            if (nivelDoProjeto1 == 'D' || nivelDoProjeto1 == 'C') {
+                statusDoProjeto1 = "Projeto concluído";
             } else {
-                statusDaMissao1 = "Missão não concluída";
+                statusDoProjeto1 = "Projeto não concluído";
             }
         } else {
-            statusDaMissao1 = "Missão concluída";
+            statusDoProjeto1 = "Projeto concluído";
         }
 
 
-        System.out.println("Nome: " + ninja1);
+        System.out.println("Nome: " + funcionario1);
         System.out.println("Idade: " + idade1);
-        System.out.println("Missão: " + missao1);
-        System.out.println("Nível da missão: " + nivelDaMissao1);
-        System.out.println("Status da missão: " + statusDaMissao1);
+        System.out.println("Projeto: " + projeto1);
+        System.out.println("Nível do projeto: " + nivelDoProjeto1);
+        System.out.println("Status do projeto: " + statusDoProjeto1);
         System.out.println("---------------------------------------------");
 
 
-        // Informações do Sasuke Uchiha
-        String ninja2 = "Sasuke Uchiha";
+        // Informações do Fúncionario 2
+        String funcionario2 = "Victor";
         int idade2 = 10;
-        String missao2 = "Derrotar o Itachi";
-        char nivelDaMissao2 = 'C';
-        String statusDaMissao2;
+        String projeto2 = "Análise de dados";
+        char nivelDaProjeto2 = 'A';
+        String statusDoProjeto2;
 
         if (idade2 < 15) {
-            if (nivelDaMissao2 == 'D' || nivelDaMissao2 == 'C') {
-                statusDaMissao2 = "Missão concluída";
+            if (nivelDaProjeto2 == 'D' || nivelDaProjeto2 == 'C') {
+                statusDoProjeto2 = "Projeto concluído";
             } else {
-                statusDaMissao2 = "Missão não concluída";
+                statusDoProjeto2 = "Projeto não concluído";
             }
         } else {
-            statusDaMissao2 = "Missão concluída";
+            statusDoProjeto2 = "Projeto concluído";
         }
 
-        System.out.println("Nome: " + ninja2);
+        System.out.println("Nome: " + funcionario2);
         System.out.println("Idade: " + idade2);
-        System.out.println("Missão: " + missao2);
-        System.out.println("Nível da missão: " + nivelDaMissao2);
-        System.out.println("Status da missão: " + statusDaMissao2);
+        System.out.println("Projeto: " + projeto2);
+        System.out.println("Nível do projeto: " + nivelDaProjeto2);
+        System.out.println("Status do projeto: " + statusDoProjeto2);
         System.out.println("---------------------------------------------");
 
 
-        // Informações da Sakura Haruno
-        String ninja3 = "Sakura Haruno";
+        // Informações do Fúncionario 3
+        String funcionario3 = "Matheus";
         int idade3 = 16;
-        String missao3 = "Salvar os feridos";
-        char nivelDaMissao3 = 'D';
-        String statusDaMissao3;
+        String projeto3 = "Suporte técnico";
+        char nivelDoProjeto3 = 'C';
+        String statusDoProjeto3;
 
         if (idade3 < 15) {
-            if (nivelDaMissao3 == 'D' || nivelDaMissao3 == 'C') {
-                statusDaMissao3 = "Missão concluída";
+            if (nivelDoProjeto3 == 'D' || nivelDoProjeto3 == 'C') {
+                statusDoProjeto3 = "Projeto concluído";
             } else {
-                statusDaMissao3 = "Missão não concluída";
+                statusDoProjeto3 = "Projeto não concluído";
             }
         } else {
-            statusDaMissao3 = "Missão concluída";
+            statusDoProjeto3 = "Projeto concluído";
         }
 
-        System.out.println("Nome: " + ninja3);
+        System.out.println("Nome: " + funcionario3);
         System.out.println("Idade: " + idade3);
-        System.out.println("Missão: " + missao3);
-        System.out.println("Nível da missão: " + nivelDaMissao3);
-        System.out.println("Status da missão: " + statusDaMissao3);
+        System.out.println("Projeto: " + projeto3);
+        System.out.println("Nível do projeto: " + nivelDoProjeto3);
+        System.out.println("Status do projeto: " + statusDoProjeto3);
         System.out.println("---------------------------------------------");
     }
 }
