@@ -28,7 +28,7 @@ public class DesafioBasico2 {
     // Estrutura de repetição que continua até o usuário escolher a opção '3' (sair)
     while (opcao != 3) {
         // Exibe o menu de opções para o usuário
-        System.out.println("\n===== Menu Ninja =====");
+        System.out.println("\n========================= Menu =========================");
         System.out.println("1. Cadastrar pessoas");
         System.out.println("2. Listar pessoas cadastradas");
         System.out.println("3. Sair");
@@ -46,7 +46,7 @@ public class DesafioBasico2 {
             case 1:
                 // Verifica se há mais espaços no array para cadastrar mais pessoas
                 if (pessoasCadastradas < numeroMax) {
-                    System.out.println("Digite o nome da pessoa que deseja cadastrar");
+                    System.out.print("Digite o nome da pessoa que deseja cadastrar: ");
                     //Lê o nome digitado pelo usuário e ar
                     String nomePessoa = scanner.nextLine();
                     // Insere o nome digitado pelo usuário e armazenado na váriavel 'nomePessoa' no array 'pessoas', usando o índice atual de 'pessoasCadastradas'
